@@ -4,6 +4,7 @@
 // Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
 // Note: If the number is a multiple of both 3 and 5, only count it once.
 
+// May 3
 // Solution
 function solution(number) {
     // set minimum parameter of zero
@@ -20,3 +21,18 @@ function solution(number) {
     // total count
     return total;
 }
+
+// May 4
+//Challenge
+// Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 integers. 
+// No floats or empty arrays will be passed.
+// For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+// [10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+// Solution
+function sumTwoSmallestNumbers(numbers) {  
+    let arrayNumFour = [55, 87, 2, 4, 22]
+    //set the order of the array, either < , >, or vice versa
+    //write a line of code to find the lowest values
+    // return sum of lowest values 
+  };
