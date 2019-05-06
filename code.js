@@ -33,6 +33,9 @@ function solution(number) {
 function sumTwoSmallestNumbers(numbers) {  
     let arrayNumFour = [55, 87, 2, 4, 22]
     //set the order of the array, either < , >, or vice versa
+    arrayNumFour.sort()
+    console.log(arrayNumFour)
     //write a line of code to find the lowest values
+    
     // return sum of lowest values 
   };
